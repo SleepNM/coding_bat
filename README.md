@@ -1,1 +1,1 @@
-# CodingBat
+# CodingBat code practice
