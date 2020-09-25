@@ -2,6 +2,7 @@
 Given a non-empty string like "Code" return a string like "CCoCodCode".
 '''
 
+
 def string_splosion(str):
     result = ""
     # On each iteration, add the substring of the chars 0..i

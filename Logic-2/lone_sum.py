@@ -4,6 +4,7 @@ However, if one of the values is the same as another of the values,
 it does not count towards the sum.
 '''
 
+
 def lone_sum(a, b, c):
     if a == b and a == c and b == c:
         return 0

@@ -5,19 +5,20 @@ next 7 (every 6 will be followed by at least one 7).
 Return 0 for no numbers.
 '''
 
+
 def sum67(nums):
-    flag=False
-    sum=0
-    
+    flag = False
+    sum = 0
+
     for num in nums:
-        if(num==6):                  #Turn the flag on if the number is 6
-            flag=True
+        if(num == 6):                   # Turn the flag on if the number is 6
+            flag = True
             continue
-        if(num==7 and flag is True): #Turn the flag Off when 7 is seen after 6
-            flag=False
+        if(num == 7 and flag is True):  # Turn the flag Off when 7 is seen.
+            flag = False
             continue
-        if(flag is False):           #Keep on adding the nums otherwise
-            sum+=num
+        if(flag is False):              # Keep on adding the nums otherwise
+            sum += num
     return sum
 
 

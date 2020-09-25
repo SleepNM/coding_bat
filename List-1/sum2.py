@@ -4,6 +4,7 @@ If the array length is less than 2, just sum up the elements that exist,
 returning 0 if the array is length 0.
 '''
 
+
 def sum2(nums):
     if len(nums) > 2:
         return nums[0] + nums[1]
